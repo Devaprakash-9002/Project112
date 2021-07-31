@@ -1,0 +1,29 @@
+body {
+    background-color: rgb(170, 129, 156);
+    font-family: 'Inconsolata', monospace;
+}
+
+.header_div {
+    background-color: rgb(255, 255, 255);
+    color: red; 
+    font-weight: bold;
+}
+
+.header_div img {
+    width: 100px;
+}
+
+#webcamview {
+    color: rgb(170, 129, 156);
+}
+
+.outputs {
+    font-size: 20px;
+    color: white;
+}
+
+.bob3 {
+    color: white;
+    size: 25px;
+    border-radius: 15px;
+}

@@ -1,0 +1,42 @@
+
+<html>
+  <head>
+    <title>MobileNet</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body>
+    <center>
+      <div class="col-xs-12 header_div">
+        <h2>Image Identification          <img src="logo.gif"></h2>
+      </div>
+     <ol>
+      <div class="text_images_and_results">
+        <li>
+          <b style="color: white; font-size: 30px;">Test Image - </b><img src="pencil.png" class="img-responsive" style="height: 400px; width: 200px;">
+        </li>
+        <h5 class="outputs">Output on <b>Microsoft Azure</b> - 
+          <span> text, letter</span>
+        </h5>
+        <h5 class="outputs">Output on <b>MobileNet</b> - 
+          <span>wooden pencil</span>
+        </h5>
+        <div class="bob3">
+          <h4 class="outputs">Result - </h4> 
+          <hr>
+          <h4>I tested 10 items of which MobileNet got 7 correct <br>and Microsoft Azure got 5 correct.<br>So, MobileNet is more accurate.</h4>
+        </div>
+      </div>
+     </ol>
+    </center>
+    
+<script src="main.js"></script>
+  </body>
+</html>
